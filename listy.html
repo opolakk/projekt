@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <title>Listy - HTML</title>
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1><a href="html.html">Quizzsite</a></h1>
+        <div class="answer-box">
+            <h3 class="question">Listy nienumerowane określamy znacznikiem:</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="true">
+            <label for="answer-1">ul</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="false">
+            <label for="answer-2">li</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="false">
+            <label for="answer-3">ol</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Listy numerowane określamy znacznikiem:</h3>
+            <input type="radio" name="question-2" id="answer-4" class="answer" value="false">
+            <label for="answer-4">li</label>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="true">
+            <label for="answer-5">ol</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="false">
+            <label for="answer-6">dt</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Listy opisowe określamy znacznikiem:</h3>
+            <input type="radio" name="question-3" id="answer-7" class="answer" value="true">
+            <label for="answer-7">dl</label>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="false">
+            <label for="answer-8">li</label>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="false">
+            <label for="answer-9">dd</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">W listach opisowych używamy elementów:</h3>
+            <input type="radio" name="question-4" id="answer-10" class="answer" value="true">
+            <label for="answer-10">dt i dd</label>
+            <input type="radio" name="question-4" id="answer-11" class="answer" value="false">
+            <label for="answer-11">dl i dd</label>
+            <input type="radio" name="question-4" id="answer-12" class="answer" value="false">
+            <label for="answer-11">ol i li</label>
+        </div>
+
+        <button type="submit">Sprawdź</button>
+    </form>
+
+    <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

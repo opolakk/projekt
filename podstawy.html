@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <title>Podstawy - HTML</title>
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1><a href="html.html">Quizzsite</a></h1>
+        <div class="answer-box">
+            <h3 class="question">Co oznacza określenie "head"?</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="false">
+            <label for="answer-1">język skryptowy</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="false">
+            <label for="answer-2">zmienna</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="true">
+            <label for="answer-3">nagłówek</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Jakim słowem określamy ciało strony napisanej w HTML?</h3>
+            <input type="radio" name="question-2" id="answer-4" class="answer" value="false">
+            <label for="answer-4">space</label>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="true">
+            <label for="answer-5">body</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="false">
+            <label for="answer-6">ground</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Aby wstawić grafikę używamy:</h3>
+            <input type="radio" name="question-3" id="answer-7" class="answer" value="false">
+            <label for="answer-7">/html</label>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="false">
+            <label for="answer-8">a href</label>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="true">
+            <label for="answer-9">img src</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Czy w języku HTML można używac polskich znaków?</h3>
+            <input type="radio" name="question-4" id="answer-10" class="answer" value="true">
+            <label for="answer-10">tak</label>
+            <input type="radio" name="question-4" id="answer-11" class="answer" value="false">
+            <label for="answer-11">nie</label>
+        </div>
+
+        <button type="submit">Sprawdź</button>
+    </form>
+
+    <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
